@@ -1,0 +1,21 @@
+.hamburguesa {
+    position: relative;
+    display: inline-block;
+    background-color: rgb(236, 161, 62);
+    padding: 12px 60px;
+}
+.ingredientes {
+    display: none;
+    position: absolute;
+}
+.ingredientes_tamaño { padding: 5px 30px; margin: 0px;}
+#lechuga { background-color: greenyellow;}
+#tomate {background-color: tomato;}
+#cebolla {background-color: aliceblue;}
+#pepinillos {background-color: green;}
+#salsa {background-color: rosybrown;}
+#carne {background-color: rgb(134, 31, 31);}
+#pan {background-color: rgb(236, 161, 62); padding: 12px 60px; margin: 0;}
+.hamburguesa:hover .ingredientes {
+    display: block;
+}

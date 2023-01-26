@@ -1,0 +1,12 @@
+table {
+    height: 100vh;
+}
+td{
+    width: 100vw;
+}
+#cell1{
+    background-color:  #8ca800;
+}
+#cell2{
+    background-color: #e9b75b;
+}
