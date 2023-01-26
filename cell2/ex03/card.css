@@ -1,0 +1,45 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color:black;
+}
+
+h1 {
+	width: 308px;
+	height: 100%;
+	text-align: center;
+	background-color: black;
+	color:rgb(225, 168, 61);
+	display: block;
+	margin: 0 auto;
+}
+
+table {
+	width: 100%;
+}
+table tr{
+	font-size: 20px;
+	font-family: fantasy;
+	font-weight: bold;
+}
+table td:first-child {
+	width: 305px;
+	border: 1px solid;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+	background-color: rgb(225, 168, 61);
+}
+
+img {
+	display: block;
+	margin: auto;
+}
+
+.icono {
+	width: 15%;
+	display: inline-block;
+}
